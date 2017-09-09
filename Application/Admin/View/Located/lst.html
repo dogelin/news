@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<include file="Public/head" />
+<body>
+<include file="Public/menu" />
+<div class="container clearfix">
+    <include file="Public/left" />
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i>
+            <a href="__MODULE__/Index/index">首页</a>
+            <span class="crumb-step">&gt;</span>
+            <span class="crumb-name">推荐位管理</span></div>
+        </div>
+
+        <div class="result-wrap">
+            <form name="formlist" id="formlist" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="__CONTROLLER__/add" id="addsubmit"><i class="icon-font"></i>新增推荐位</a>
+                        <a id="batchDel" href="#" onclick="dels()"><i class="icon-font"></i>批量删除</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="95%" id="messagelst">
+                        <tr>
+                            <th class="tc" width="5%">
+                            	<input class="allChoose" name="checkall" id="checkall" type="checkbox" ></th>
+                            <th width="7%">ID</th>
+                            <th>推荐位名称</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                        <volist name="locas" id="vo">
+                        <tr>
+                        	
+                            <td class="tc"><input name="dels[{$vo.id}]"  class="dels" value ="{$vo.id}" type="checkbox"></td>
+                            <td >{$vo.id}</td>
+                            <td ><a target="_blank" href="#" >{$vo.name}</a> 
+                            </td>
+                            <td class="status" onclick="editstatus({$vo.status},{$vo.id})">{$vo.status|statusname}</td>
+                            <td>
+                                <a class="link-update" href="__CONTROLLER__/edit/id/{$vo.id}">修改</a>
+                                <a class="link-del" href="#" onclick="del({$vo.id})">删除</a>
+                            </td>
+                        </tr>
+						</volist>
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+<include file="Public/js" />
+<script type="text/javascript">
+ var SCOPE={
+		 post_url:"__CONTROLLER__/del",
+		 post_dels:"__CONTROLLER__/dels",
+		 jump_url:"__SELF__",
+		 status_url:"__CONTROLLER__/status",
+ };
+</script>
+</body>
+</html>

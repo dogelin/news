@@ -1,0 +1,785 @@
+[ 2017-07-14T10:23:42+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0079s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0172s ]
+
+[ 2017-07-14T10:23:50+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 无法加载控制器:Locamain
+
+[ 2017-07-14T14:10:13+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003180s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0647s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0098s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('gg','17','&lt;p&gt;gg&lt;br/&gt;&lt;/p&gt;','0','17','17') [ RunTime:0.3347s ]
+
+[ 2017-07-14T14:32:34+08:00 ] 127.0.0.1 /index.php/Admin/Content/lst
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `content` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `content` ORDER BY list asc,id desc LIMIT 0,3   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `located`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `menu` WHERE ( id=17 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `menu` WHERE ( id=17 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `menu` WHERE ( id=17 )  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2017-07-14T14:34:46+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2017-07-14T14:39:22+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2017-07-14T14:40:15+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2017-07-14T14:40:18+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2017-07-14T14:41:19+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2017-07-14T14:42:55+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001718s ]
+
+[ 2017-07-14T14:45:31+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2017-07-14T14:45:38+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2017-07-14T14:46:06+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: con_id F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 161 行.
+
+[ 2017-07-14T14:46:08+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: con_id F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 161 行.
+
+[ 2017-07-14T14:46:51+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: con_id F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 161 行.
+
+[ 2017-07-14T14:47:20+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: con_id F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 161 行.
+
+[ 2017-07-14T14:47:23+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0072s ]
+
+[ 2017-07-14T14:57:15+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.1507s ]
+
+[ 2017-07-14T14:57:20+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.1081s ]
+NOTIC: [8] Undefined variable: dataList F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 174 行.
+
+[ 2017-07-14T14:57:59+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0078s ]
+
+[ 2017-07-14T14:58:04+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002476s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined variable: dataList F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 174 行.
+
+[ 2017-07-14T14:58:45+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined variable: dataList F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 175 行.
+
+[ 2017-07-14T15:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0085s ]
+SQL: INSERT INTO `menu` (`name`,`status`) VALUES ('hh','1') [ RunTime:0.1077s ]
+
+[ 2017-07-14T15:03:59+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0086s ]
+SQL: INSERT INTO `loca_content` (`loca_id`,`con_id`) VALUES ('3','9') [ RunTime:0.1628s ]
+SQL: INSERT INTO `loca_content` (`loca_id`,`con_id`) VALUES ('3','5') [ RunTime:0.0925s ]
+
+[ 2017-07-14T15:05:33+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 无法加载控制器:Locamain
+
+[ 2017-07-14T15:05:45+08:00 ] 127.0.0.1 /index.php/Admin/Located/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0082s ]
+SQL: INSERT INTO `located` (`name`,`status`) VALUES ('php技术','1') [ RunTime:0.0870s ]
+
+[ 2017-07-14T15:05:55+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `loca_content` [ RunTime:0.0070s ]
+SQL: INSERT INTO `loca_content` (`loca_id`,`con_id`) VALUES ('4','9') [ RunTime:0.0743s ]
+SQL: INSERT INTO `loca_content` (`loca_id`,`con_id`) VALUES ('4','5') [ RunTime:0.0376s ]
+
+[ 2017-07-14T15:06:24+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0649s ]
+SQL: UPDATE `content` SET `status`='1' WHERE `id` = 10 [ RunTime:0.4086s ]
+
+[ 2017-07-14T15:11:09+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 无法加载控制器:Locamain
+
+[ 2017-07-14T15:40:27+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1146:La table 'cms.local_content_view_model' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `local_content_view_model`
+
+[ 2017-07-14T15:41:23+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1146:La table 'cms.local_content_view' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `local_content_view`
+
+[ 2017-07-14T15:43:33+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1146:La table 'cms.local_content_view' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `local_content_view`
+
+[ 2017-07-14T15:44:38+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1146:La table 'cms.local_content_view' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `local_content_view`
+
+[ 2017-07-14T15:46:14+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1146:La table 'cms.localpush_view' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `localpush_view`
+
+[ 2017-07-14T15:46:42+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1146:La table 'cms.localpush_view' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `localpush_view`
+
+[ 2017-07-14T15:51:02+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0074s ]
+SQL: DELETE FROM `menu` WHERE `id` = 1 [ RunTime:0.0541s ]
+
+[ 2017-07-14T15:51:11+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0086s ]
+SQL: DELETE FROM `menu` WHERE `id` = 1 [ RunTime:0.0006s ]
+
+[ 2017-07-14T15:51:45+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0074s ]
+SQL: DELETE FROM `locapush` WHERE `id` = 1 [ RunTime:0.0672s ]
+
+[ 2017-07-14T15:52:36+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0080s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('3','10') [ RunTime:0.1304s ]
+
+[ 2017-07-14T15:52:55+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002813s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0087s ]
+SQL: DELETE FROM `menu` WHERE `id` IN ('2','5') [ RunTime:0.0656s ]
+
+[ 2017-07-14T15:54:21+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0070s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('3','9') [ RunTime:0.0791s ]
+
+[ 2017-07-14T15:54:57+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0079s ]
+SQL: DELETE FROM `locapush` WHERE `id` = 6 [ RunTime:0.3593s ]
+
+[ 2017-07-14T16:04:24+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002906s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: result F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 174 行.
+
+[ 2017-07-14T16:05:30+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0852s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 10 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: result F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 174 行.
+
+[ 2017-07-14T16:05:49+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0093s ]
+SQL: DELETE FROM `locapush` WHERE `id` IN ('5','4','3','2') [ RunTime:0.1350s ]
+
+[ 2017-07-14T16:05:56+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003237s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0075s ]
+SQL: DELETE FROM `locapush` WHERE `id` = 0 [ RunTime:0.0004s ]
+
+[ 2017-07-14T16:08:32+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: XML标签语法错误 : $vo['artname'] neq ''
+
+[ 2017-07-14T16:12:52+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0627s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 10 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','10') [ RunTime:0.1897s ]
+
+[ 2017-07-14T16:13:14+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002280s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0112s ]
+SQL: DELETE FROM `locapush` WHERE `id` = 7 [ RunTime:0.0873s ]
+
+[ 2017-07-14T16:13:50+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','10') [ RunTime:0.0693s ]
+
+[ 2017-07-14T16:14:14+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0107s ]
+SQL: DELETE FROM `locapush` WHERE `id` = 8 [ RunTime:0.7538s ]
+
+[ 2017-07-14T16:14:20+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0094s ]
+
+[ 2017-07-14T16:14:23+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('3','10') [ RunTime:0.0830s ]
+
+[ 2017-07-14T16:14:43+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 9 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('3','9') [ RunTime:0.0603s ]
+
+[ 2017-07-14T16:14:55+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','9') [ RunTime:0.0853s ]
+
+[ 2017-07-14T16:15:46+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0071s ]
+SQL: DELETE FROM `locapush` WHERE `id` IN ('11','10','9') [ RunTime:0.0752s ]
+
+[ 2017-07-14T16:15:56+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003144s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0087s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('3','10') [ RunTime:0.0827s ]
+
+[ 2017-07-14T16:16:47+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0088s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','10') [ RunTime:0.0862s ]
+
+[ 2017-07-14T16:17:07+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0466s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','10') [ RunTime:0.0776s ]
+
+[ 2017-07-14T16:17:23+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0107s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','10') [ RunTime:0.0601s ]
+
+[ 2017-07-14T16:18:17+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0091s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','10') [ RunTime:0.1404s ]
+
+[ 2017-07-14T16:18:33+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0083s ]
+SQL: DELETE FROM `locapush` WHERE `id` IN ('16','15','14','13','12') [ RunTime:0.0989s ]
+
+[ 2017-07-14T16:19:30+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002766s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0112s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','10') [ RunTime:0.0914s ]
+
+[ 2017-07-14T16:20:22+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003447s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0108s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','10') [ RunTime:0.0569s ]
+
+[ 2017-07-14T16:21:14+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.1869s ]
+SQL: DELETE FROM `locapush` WHERE `id` IN ('18','17') [ RunTime:0.1329s ]
+
+[ 2017-07-14T16:21:44+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0074s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('3','10') [ RunTime:0.0625s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('3','9') [ RunTime:0.0320s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('3','5') [ RunTime:0.0669s ]
+
+[ 2017-07-14T16:22:15+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002447s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: result F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 176 行.
+
+[ 2017-07-14T16:22:26+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0077s ]
+
+[ 2017-07-14T16:22:29+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('3','4') [ RunTime:0.0758s ]
+
+[ 2017-07-14T16:23:00+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003838s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 10 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','10') [ RunTime:0.0641s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 9 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','9') [ RunTime:0.0313s ]
+
+[ 2017-07-14T16:23:13+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 10 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`con_id`) VALUES ('4','5') [ RunTime:0.0815s ]
+
+[ 2017-07-14T16:39:10+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1064:Erreur de syntaxe près de '%% ) ORDER BY Locapush.id desc' à la ligne 1
+ [ SQL语句 ] : SELECT Locapush.id AS id,Content.artname AS artname,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE ( pushname=二二恶 AND artname like %% ) ORDER BY Locapush.id desc 
+
+[ 2017-07-14T16:41:35+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1064:Erreur de syntaxe près de '%% ) ORDER BY Locapush.id desc' à la ligne 1
+ [ SQL语句 ] : SELECT Locapush.id AS id,Content.artname AS artname,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE ( pushname=二二恶 AND artname like %% ) ORDER BY Locapush.id desc 
+
+[ 2017-07-14T16:42:00+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1054:Champ 'pushname' inconnu dans where clause
+ [ SQL语句 ] : SELECT Locapush.id AS id,Content.artname AS artname,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE ( pushname=二二恶 ) ORDER BY Locapush.id desc 
+
+[ 2017-07-14T16:42:07+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1054:Champ 'pushname' inconnu dans where clause
+ [ SQL语句 ] : SELECT Locapush.id AS id,Content.artname AS artname,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE ( pushname=二二恶 ) ORDER BY Locapush.id desc 
+
+[ 2017-07-14T16:43:28+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1054:Champ 'pushname' inconnu dans where clause
+ [ SQL语句 ] : SELECT Locapush.id AS id,Content.artname AS artname,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE ( pushname=二二恶 ) ORDER BY Locapush.id desc 
+
+[ 2017-07-14T16:46:57+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/lst
+ERR: 1054:Champ '二二恶' inconnu dans where clause
+ [ SQL语句 ] : SELECT Locapush.id AS id,Content.artname AS artname,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE ( 'pushname'=二二恶 ) ORDER BY Locapush.id desc 
+
+[ 2017-07-14T20:18:17+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002528s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0081s ]
+SQL: DELETE FROM `locapush` WHERE `id` IN ('25','24','23','22','21','20','19') [ RunTime:0.1069s ]
+
+[ 2017-07-14T20:18:29+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 10 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('4','1500034708','10') [ RunTime:0.0789s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 9 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('4','1500034708','9') [ RunTime:0.0315s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 5 LIMIT 1   [ RunTime:0.0198s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('4','1500034708','5') [ RunTime:0.0450s ]
+
+[ 2017-07-14T20:20:24+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('3','1500034824','4') [ RunTime:0.1094s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('3','1500034824','1') [ RunTime:0.0460s ]
+
+[ 2017-07-14T20:22:29+08:00 ] 127.0.0.1 /index.php/Admin/Located/edit/id/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002428s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `located` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `located` SET `name`='首页大图' WHERE `id` = 4 [ RunTime:0.0853s ]
+
+[ 2017-07-14T20:22:38+08:00 ] 127.0.0.1 /index.php/Admin/Located/edit/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003519s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `located` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `located` SET `name`='文章排行' WHERE `id` = 3 [ RunTime:0.1010s ]
+
+[ 2017-07-14T20:22:49+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `name`='php' WHERE `id` = 35 [ RunTime:0.0708s ]
+
+[ 2017-07-14T20:23:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `name`='体育' WHERE `id` = 35 [ RunTime:0.0885s ]
+
+[ 2017-07-14T20:23:17+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/34
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `menu` SET `name`='科技' WHERE `id` = 34 [ RunTime:0.1064s ]
+
+[ 2017-07-14T20:58:16+08:00 ] 127.0.0.1 /index.php/Admin/Located/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0102s ]
+SQL: INSERT INTO `located` (`name`,`status`) VALUES ('右侧小图','1') [ RunTime:0.0753s ]
+
+[ 2017-07-14T20:59:41+08:00 ] 127.0.0.1 /index.php/Admin/Located/edit/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0579s ]
+SQL: SELECT * FROM `located` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `located` SET `name`='文章排行' WHERE `id` = 5 [ RunTime:0.0870s ]
+
+[ 2017-07-14T21:35:30+08:00 ] 127.0.0.1 /index.php/Admin/Located/edit/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006868s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `located` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `located` SET `name`='文章推荐' WHERE `id` = 5 [ RunTime:0.1036s ]
+
+[ 2017-07-14T21:35:40+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 5 AND `con_id` = 10 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('5','1500039340','10') [ RunTime:0.1100s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 5 AND `con_id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('5','1500039340','9') [ RunTime:0.0418s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 5 AND `con_id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('5','1500039340','5') [ RunTime:0.0647s ]
+
+[ 2017-07-14T21:35:47+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 5 AND `con_id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('5','1500039346','4') [ RunTime:0.1031s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 5 AND `con_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('5','1500039346','1') [ RunTime:0.0446s ]
+
+[ 2017-07-14T21:59:33+08:00 ] 127.0.0.1 /index.php/Admin/Located/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0091s ]
+SQL: INSERT INTO `located` (`name`,`status`) VALUES ('右侧小图','1') [ RunTime:0.0898s ]
+
+[ 2017-07-14T21:59:45+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 6 AND `con_id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('6','1500040785','4') [ RunTime:0.1025s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 6 AND `con_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('6','1500040785','1') [ RunTime:0.0430s ]
+
+[ 2017-07-14T21:59:52+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 6 AND `con_id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('6','1500040792','9') [ RunTime:0.1483s ]
+
+[ 2017-07-14T22:16:18+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0107s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('国师大人的重生日常','17','&lt;p&gt;重生前，江一执是大扬朝国师，一人之下，万人之上。&lt;br/&gt;重生后，江一执是被金主包养的替身，作天作地，声名狼藉。&lt;br/&gt;江一执在心里默念富贵不能淫，贫贱不能移，然后转身把金主拐上了床。&lt;/p&gt;','1','17','17') [ RunTime:0.0918s ]
+
+[ 2017-07-14T22:16:24+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0079s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('国师大人的重生日常','17','&lt;p&gt;重生前，江一执是大扬朝国师，一人之下，万人之上。&lt;br/&gt;重生后，江一执是被金主包养的替身，作天作地，声名狼藉。&lt;br/&gt;江一执在心里默念富贵不能淫，贫贱不能移，然后转身把金主拐上了床。&lt;/p&gt;','1','17','17') [ RunTime:0.0993s ]
+
+[ 2017-07-14T22:16:30+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0083s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('国师大人的重生日常','17','&lt;p&gt;重生前，江一执是大扬朝国师，一人之下，万人之上。&lt;br/&gt;重生后，江一执是被金主包养的替身，作天作地，声名狼藉。&lt;br/&gt;江一执在心里默念富贵不能淫，贫贱不能移，然后转身把金主拐上了床。&lt;/p&gt;','1','17','17') [ RunTime:0.1252s ]
+
+[ 2017-07-14T22:16:49+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0084s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('国师大人的重生日常','17','&lt;p&gt;哈哈哈哈&lt;/p&gt;','1','17','17') [ RunTime:0.1264s ]
+
+[ 2017-07-14T22:17:21+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0081s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('国师大人的重生日常','17','&lt;p&gt;哈哈哈哈&lt;/p&gt;&lt;pre class=&quot;brush:html;toolbar:false&quot;&gt;&lt;br/&gt;&lt;/pre&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.0868s ]
+
+[ 2017-07-14T22:18:15+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0093s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('方法','34','&lt;p&gt;吃水果干&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.1357s ]
+
+[ 2017-07-14T22:18:47+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0099s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('方法','34','&lt;p&gt;吃水果干三生三世&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.1351s ]
+
+[ 2017-07-14T22:22:15+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0073s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('一个老和尚','17','&lt;p&gt;居然有头发&lt;/p&gt;&lt;p&gt;哈哈哈&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.0767s ]
+
+[ 2017-07-14T22:24:20+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+
+[ 2017-07-14T22:24:25+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+
+[ 2017-07-14T22:24:35+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0071s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('的点点滴滴','17','&lt;p&gt;哈哈哈哈哈嗯嗯&lt;/p&gt;','1','17','17') [ RunTime:0.0898s ]
+

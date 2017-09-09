@@ -1,0 +1,4 @@
+[ 2017-07-17T14:38:42+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 1052:Champ: 'status' dans where clause est ambigu
+ [ SQL语句 ] : SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE `status` = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5  
+

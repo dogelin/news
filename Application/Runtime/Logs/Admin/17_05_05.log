@@ -1,0 +1,2599 @@
+[ 2017-05-05T20:46:08+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+
+[ 2017-05-05T20:46:08+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000481s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2017-05-05T20:46:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.4726s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-05T20:46:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2017-05-05T20:46:27+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0611s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001640s ]
+
+[ 2017-05-05T20:46:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-05-05T20:46:39+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2017-05-05T20:47:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2017-05-05T20:47:45+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `name`='娱乐1' WHERE `id` = 4 [ RunTime:0.1120s ]
+
+[ 2017-05-05T20:47:48+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2017-05-05T20:48:18+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2017-05-05T20:48:21+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `menu` SET `name`='娱乐' WHERE `id` = 4 [ RunTime:0.0840s ]
+
+[ 2017-05-05T20:48:22+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002085s ]
+
+[ 2017-05-05T20:56:17+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2017-05-05T20:56:44+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2017-05-05T20:56:52+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2017-05-05T20:58:10+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2017-05-05T20:58:32+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2017-05-05T21:00:54+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2017-05-05T21:01:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/del/id/35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0072s ]
+SQL: DELETE FROM `menu` WHERE `id` = 35 [ RunTime:0.0960s ]
+
+[ 2017-05-05T21:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2017-05-05T21:01:25+08:00 ] 127.0.0.1 /index.php/Admin/Menu/del/id/34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0071s ]
+SQL: DELETE FROM `menu` WHERE `id` = 34 [ RunTime:0.0891s ]
+
+[ 2017-05-05T21:01:30+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2017-05-05T21:10:24+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003356s ]
+
+[ 2017-05-05T21:10:44+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2017-05-05T21:10:50+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2017-05-05T21:12:30+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2017-05-05T21:14:37+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001661s ]
+
+[ 2017-05-05T21:14:39+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2017-05-05T21:15:14+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2017-05-05T21:16:44+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2017-05-05T21:17:53+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2017-05-05T21:19:21+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2017-05-05T21:20:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002824s ]
+
+[ 2017-05-05T21:20:16+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2017-05-05T21:22:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002098s ]
+
+[ 2017-05-05T21:22:13+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2017-05-05T21:22:34+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001932s ]
+
+[ 2017-05-05T21:22:49+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003320s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2017-05-05T21:23:37+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000720s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2017-05-05T21:24:46+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2017-05-05T21:25:40+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.1746s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.248443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001661s ]
+
+[ 2017-05-05T21:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2017-05-05T21:28:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2017-05-05T21:29:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001864s ]
+
+[ 2017-05-05T21:30:11+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2017-05-05T21:31:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001790s ]
+
+[ 2017-05-05T21:32:38+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2017-05-05T21:34:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-05-05T21:34:44+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001778s ]
+
+[ 2017-05-05T21:35:01+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001905s ]
+
+[ 2017-05-05T21:35:29+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001920s ]
+
+[ 2017-05-05T21:35:50+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000657s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2017-05-05T21:40:10+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2017-05-05T21:40:11+08:00 ] 127.0.0.1 /index.php/Admin/Menu/del/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0079s ]
+SQL: DELETE FROM `menu` WHERE `id` = 4 [ RunTime:0.0552s ]
+
+[ 2017-05-05T21:40:12+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2017-05-05T21:42:06+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2017-05-05T21:42:18+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.3053s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001888s ]
+
+[ 2017-05-05T21:42:20+08:00 ] 127.0.0.1 /index.php/Admin/Menu/del/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0222s ]
+SQL: DELETE FROM `menu` WHERE `id` = 5 [ RunTime:0.0765s ]
+
+[ 2017-05-05T21:42:21+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000601s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2017-05-05T21:44:59+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2017-05-05T21:45:00+08:00 ] 127.0.0.1 /index.php/Admin/Menu/del/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0105s ]
+SQL: DELETE FROM `menu` WHERE `id` = 6 [ RunTime:0.0971s ]
+
+[ 2017-05-05T21:45:04+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2017-05-05T21:52:36+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2017-05-05T21:55:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001967s ]
+
+[ 2017-05-05T21:56:14+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002633s ]
+
+[ 2017-05-05T21:56:22+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2017-05-05T22:02:58+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001824s ]
+
+[ 2017-05-05T22:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Menu/del/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0102s ]
+SQL: DELETE FROM `menu` WHERE `id` = 33 [ RunTime:0.0709s ]
+
+[ 2017-05-05T22:03:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.1017s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2017-05-05T22:09:41+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2017-05-05T22:11:39+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.2819s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2017-05-05T22:11:47+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2017-05-05T22:12:37+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2017-05-05T22:13:32+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2017-05-05T22:13:42+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2017-05-05T22:14:09+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001525s ]
+
+[ 2017-05-05T22:15:43+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2017-05-05T22:15:46+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2017-05-05T22:15:51+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0072s ]
+SQL: INSERT INTO `menu` (`name`,`status`) VALUES ('PHP','1') [ RunTime:0.1374s ]
+
+[ 2017-05-05T22:15:52+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2017-05-05T22:16:05+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002774s ]
+
+[ 2017-05-05T22:16:36+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001934s ]
+
+[ 2017-05-05T22:16:37+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002109s ]
+
+[ 2017-05-05T22:16:43+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2017-05-05T22:17:11+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002314s ]
+
+[ 2017-05-05T22:17:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002291s ]
+
+[ 2017-05-05T22:18:13+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002428s ]
+
+[ 2017-05-05T22:18:50+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002371s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001591s ]
+
+[ 2017-05-05T22:19:29+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2017-05-05T22:19:32+08:00 ] 127.0.0.1 /index.php/Admin/Menu/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0065s ]
+SQL: DELETE FROM `menu` WHERE `id` = 36 [ RunTime:0.0661s ]
+
+[ 2017-05-05T22:19:34+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.5810s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2017-05-05T22:20:24+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2017-05-05T22:20:55+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.2220s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2017-05-05T22:21:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE ( id=16 ) [ RunTime:0.0577s ]
+
+[ 2017-05-05T22:21:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE ( id=17 ) [ RunTime:0.0564s ]
+
+[ 2017-05-05T22:21:04+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE ( id=23 ) [ RunTime:0.0826s ]
+
+[ 2017-05-05T22:21:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE ( id=16 ) [ RunTime:0.0606s ]
+
+[ 2017-05-05T22:21:22+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE ( id=17 ) [ RunTime:0.0903s ]
+
+[ 2017-05-05T22:21:27+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-05-05T22:21:35+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE ( id=16 ) [ RunTime:0.0743s ]
+
+[ 2017-05-05T22:23:39+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2017-05-05T22:23:40+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 16 [ RunTime:0.0529s ]
+
+[ 2017-05-05T22:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0909s ]
+
+[ 2017-05-05T22:23:45+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 23 [ RunTime:0.1044s ]
+
+[ 2017-05-05T22:23:47+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 23 [ RunTime:0.0545s ]
+
+[ 2017-05-05T22:24:05+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-05-05T22:24:06+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 16 [ RunTime:0.0863s ]
+
+[ 2017-05-05T22:24:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 16 [ RunTime:0.0634s ]
+
+[ 2017-05-05T22:24:17+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 16 [ RunTime:0.0590s ]
+
+[ 2017-05-05T22:24:32+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 23 [ RunTime:0.1017s ]
+
+[ 2017-05-05T22:24:37+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 16 [ RunTime:0.0634s ]
+

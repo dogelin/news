@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<include file="Public/head" />
+<body>
+	
+	<script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+<include file="Public/menu" />
+<div class="container clearfix">
+    <include file="Public/left" />
+    <!--/sidebar-->
+    <div class="main-wrap">
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i>
+            <a href="__MODULE__/Index/index">首页</a>
+            <span class="crumb-step">&gt;</span>
+            <a class="crumb-name" href="__CONTROLLER__/lst">新闻管理</a>
+            <span class="crumb-step">&gt;</span><span>新增新闻</span>
+       </div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="" method="post" id="addForm" name="addForm" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>新闻名称：</th>
+                                <td>
+                                    <input class="common-text required" id="name" name="artname" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>新闻描述：</th>
+                                <td>
+                                    <textarea name="desc" id="desc" cols="50" rows="5"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<th><i class="require-red">*</i>所属栏目：</th>
+                                	<td>
+                                   	 <select name="cate_id" >
+                                   	 <volist name="cates" id="vo">
+                                   	 	<option value="{$vo.id}">{$vo.name}</option>
+                                   	 </volist>
+                                   	 </select>
+                                	</td>
+                            </tr>
+                            <tr>
+                            	<th>缩略图：</th>
+                                	<td>
+										 <input id="file_upload" name="file_upload" type="file" multiple="true">
+										<img style="display:none" id="upload_img" src="" width="150" height="150">
+										<input id="file_upload_image" name="pic" type="hidden" multiple="true" value="">
+                                	
+                                	</td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>新闻内容：</th>
+                                <td>
+                                	<textarea  name="content" id="content"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>状态：</th>
+                                <td>
+                                    <input name="status"  value="1" type="radio">&nbsp;正常&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input name="status"  value="0" type="radio">&nbsp;关闭
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <button type="button" class="btn btn-primary btn6 mr10" id="submit_add">提交</button>
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+<include file="Public/js" />
+<script src="__PUBLIC__/Admin/js/image.js"></script>
+<script type="text/javascript">
+UE.getEditor('content',{initialFrameWidth:900,initialFrameHeight:400,});
+	var SCOPE={
+			'add_url': '__SELF__',
+			'jump_url' :'__CONTROLLER__/lst',
+			'ajax_upload_image_url' : '__MODULE__/Image/uploadify',
+		    'ajax_upload_swf' : '__PUBLIC__/Admin/uploadify/uploadify.swf',
+	};
+</script>
+</body>
+</html>

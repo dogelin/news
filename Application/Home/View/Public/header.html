@@ -1,0 +1,16 @@
+<header id="header">
+  <div class="navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+          <img src="__PUBLIC__/Home/image/logo.png" alt="">
+      </div>
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="__MODULE__/Index/index" class="curr">首页</a></li>
+        <volist name="menus" id="vo" >
+        <li><a href="__MODULE__/Menu/lst/id/{$vo.id}" <if condition="$vo['id'] eq $current">class="curr"</if>> {$vo.name}</a>
+        </li>
+        </volist>
+      </ul>
+    </div>
+  </div>
+</header>

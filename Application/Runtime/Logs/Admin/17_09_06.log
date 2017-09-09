@@ -1,0 +1,64 @@
+[ 2017-09-06T10:26:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002750s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0081s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-09-06T10:26:17+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003493s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0166s ]
+SQL: UPDATE `content` SET `status`='0' WHERE `id` = 53 [ RunTime:0.3259s ]
+
+[ 2017-09-06T10:26:20+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0150s ]
+SQL: UPDATE `content` SET `status`='1' WHERE `id` = 53 [ RunTime:0.1883s ]
+
+[ 2017-09-06T10:40:26+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-09-06T16:09:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004335s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.2354s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0155s ]
+
+[ 2017-09-06T16:11:26+08:00 ] 127.0.0.1 /index.php/Admin/Content/edit/id/53
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `content` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `content` SET `artname`='李彦宏发内部信:搜索业务已逐渐摆脱既往负',`desc`='网易科技讯7月28日消息，百度今日发布了2017年第二季度未经审计的财务报告，随后李彦宏发内部信称：“第二季度我们在教育、汽车、物流、本地服务等多个行业增加了近20000名在线活跃客户；相比较一季度，',`cate_id`='34',`content`='&lt;p&gt;&lt;strong&gt;以下为李彦宏内部信原文：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;各位亲爱的百度同学们：&lt;/p&gt;&lt;p&gt;大家好。北京时间7月28日，我们公布了百度2017年第二季度的财务报告。过去这个季度公司营业收入约为208.74亿元人民币，比去年同期增长14.3%。人工智能时代从“下一幕”走进“这一幕”的变革时刻，闪耀着每一个百度人不懈创新、执着前行的光辉。在此，我谨代表公司董事会和管理层向大家表示由衷的感谢！&lt;/p&gt;&lt;p&gt;第二季度，在“夯实移动基础，决胜AI时代”的核心战略之路上，我们的步伐坚定而坚实，移动收入占比达72%，AI正日益成为提升公司核心业务与核心产品的基础驱动力。&lt;/p&gt;&lt;p&gt;“搜索
+ + 
+信息流”的双重引擎不断加大马力，并依托AI的支撑，带给用户更流畅、更丰富的信息世界。信息流的日活跃用户（DAU）超过1亿，新推出的手百9.0版本使搜索体验更加形象化、语音化。百科、知道、贴吧迭代了全新的内容产品形态。6月份统计数据显示，爱奇艺用户每月花在PC和移动APP上的时间分别高达1240亿分钟和3830亿分钟，媒体时间占有能力仅次于微信。&lt;/p&gt;&lt;p&gt;这些努力和成果，都在推动我们在智能时代做好内容分发和服务连接，让百度真正成为最懂用户的公司，也让客户越来越接受这样的组合服务：第二季度我们在教育、汽车、物流、本地服务等多个行业增加了近20000名在线活跃客户；相比较一季度，大客户原生广告收入提升250%，信息流广告收入提升200%。客户的持续认可和积极投放，说明我们的搜索业务已逐渐摆脱既往负面影响，更是百度整体平台价值复苏的最有力证明！&lt;/p&gt;&lt;p&gt;我们的人工智能的提前探索与合作布局，在第二季度迎来引爆产业的契机。&lt;/p&gt;&lt;p&gt;七月初的AI开发者大会上，我们发布了Apollo和DuerOS两大开放平台，第一次向行业展示最完整、最开放、最前沿、也最具活力的AI生态。&lt;/p&gt;&lt;p&gt;我们正式发布了Apollo
+ 1.0和Apollo开放平台的整体战略与开放路线图，推出了国内首个可量产的车载自动驾驶计算平台BCU（Baidu Computing 
+Unit），并和福特、戴姆勒、微软、博世、大陆、奇瑞、一汽等50家合作伙伴（包括13家整车厂商）构建起全球最强大的自动驾驶生态，帮助伙伴实现“从0到1”的能力跨越，推动数据资源的交换与贡献，加速创新诞生和技术迭代。无人驾驶乃至整个汽车产业的格局和未来，因为Apollo而变得不同以往！&lt;/p&gt;&lt;p&gt;DuerOS开放平台目前已具备10大类目、100+功能，为手机、智能家居、智能穿戴、车载等多个行业赋能。对人工智能创业公司KITT.AI的全资收购，将进一步增强我们的语音唤醒能力和自然语言理解技术深度。作为下一代基于自然语言的人类计算平台，DuerOS正在中国为全球行业树立新的标准。&lt;/p&gt;&lt;p&gt;第二季度也是百度金融立足智能金融、培养核心能力的关键时期。上个月，我们与中国农业银行达成合作、共建智能银行，在客户的信用评估、风险管理和产品定位等丰富的应用场景中为传统金融贡献AI Fintech之力，以更加开放的心态与生态伙伴分享、共赢。&lt;/p&gt;&lt;p&gt;基于人工智能的大数据云计算（ABC）已经成为百度整体人工智能战略行业输出的承担者，冷存储、快存储、存储网关等产品技术也居于业界领先位置。以此为基础，百度云正在开创不同重点行业的云化转型新路径，并构建百度云特色的整体行业生态。&lt;/p&gt;&lt;p&gt;重视人工智能已渐成全球共识，如大河汤汤、不可逆转。这是所有百度人期待已久的全新机遇，让我们充满了信心和斗志，也对我们的事业提出了更高的要求。五四青年节那天，我们发布了公司的新使命，把原来的“让人们最平等便捷地获取信息找到所求”延伸为“用科技让复杂的世界更简单”。这也意味着百度已经成为一家AI公司，以新使命为感召，不断强化技术创新在在社会、政策层面的改变力量：上个月，我们与南航合作，在河南南阳机场首次实现刷脸登机；与重庆市政府、山西省政府等也签署了合作协议，共同加速智慧城市建设和产业转型升级……未来随着技术能力的不断完备、应用场景的不断丰富，从“连接信息”到“唤醒万物”的理想也必将更为清晰、触手可及。&lt;/p&gt;&lt;p&gt;同学们，人工智能时代已经是“现在进行时”。我们的技术已经做好准备，用户与合作伙伴正充满期待，上个礼拜国务院印发《新一代人工智能发展规划》，为整个产业确立发展蓝图，也为百度AI技术在语音、图像、自动驾驶等更多领域的成熟应用与快速普及，创造了前所未有的政策环境。“千红万紫安排著，只待新雷第一声”，改变世界的蓝图正在我们眼前展开，我们唯有以AI时代的思维，坚持开放、共享的精神；唯有时刻把用户的利益放在心中，聚拢起更多的支持与力量，才能成为用户至上的创新者，才能真正谱写出代表中国时刻的AI乐章！&lt;/p&gt;&lt;p&gt;Q2季报中披露的其他一些主要数据，请见附件的新闻通稿。&lt;/p&gt;&lt;p&gt;谢谢大家！&lt;/p&gt;&lt;p&gt;Robin&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`updatetime`='1504685485' WHERE `id` = 53 [ RunTime:0.1629s ]
+
+[ 2017-09-06T16:11:45+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002425s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0079s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`,`pic`) VALUES ('ggg','gggg','17','&lt;p&gt;ggggg&lt;/p&gt;','1','1504685505','1504685505','') [ RunTime:0.1768s ]
+

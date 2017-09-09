@@ -1,0 +1,440 @@
+[ 2017-07-09T21:10:16+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0068s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-09T21:10:31+08:00 ] 127.0.0.1 /index.php/Admin/Content/design.html
+ERR: 非法操作:design
+
+[ 2017-07-09T21:51:24+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+ERR: 非法操作:status
+
+[ 2017-07-09T21:51:30+08:00 ] 127.0.0.1 /index.php/Admin/Content/edit/id/1
+ERR: 模板不存在:./Application/Admin/View/Content/edit.html
+
+[ 2017-07-09T22:13:42+08:00 ] 127.0.0.1 /index.php/Admin/Content/lst
+ERR: 1146:La table 'cms.cate' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cate`
+
+[ 2017-07-09T22:14:24+08:00 ] 127.0.0.1 /index.php/Admin/Content/lst
+ERR: 1146:La table 'cms.cate' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cate`
+
+[ 2017-07-09T22:14:47+08:00 ] 127.0.0.1 /index.php/Admin/Content/lst
+ERR: 1146:La table 'cms.cate' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cate`
+
+[ 2017-07-09T22:14:49+08:00 ] 127.0.0.1 /index.php/Admin/Content/lst
+ERR: 1146:La table 'cms.cate' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cate`
+
+[ 2017-07-09T22:23:51+08:00 ] 127.0.0.1 /index.php/Admin/Content/listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002628s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0530s ]
+SQL: UPDATE `content` SET `list`='1' WHERE ( id=2 ) [ RunTime:0.0767s ]
+SQL: UPDATE `content` SET `list`='2' WHERE ( id=1 ) [ RunTime:0.0317s ]
+
+[ 2017-07-09T22:23:59+08:00 ] 127.0.0.1 /index.php/Admin/Content/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0074s ]
+SQL: DELETE FROM `content` WHERE `id` = 2 [ RunTime:0.1096s ]
+
+[ 2017-07-09T22:24:03+08:00 ] 127.0.0.1 /index.php/Admin/Content/edit/id/1
+ERR: 模板不存在:./Application/Admin/View/Content/edit.html
+
+[ 2017-07-09T22:24:16+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0063s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:24:22+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0059s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:24:27+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 34 [ RunTime:0.2278s ]
+
+[ 2017-07-09T22:24:31+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:24:45+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:25:37+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:26:27+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0088s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:26:31+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0073s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:27:37+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:27:53+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0006s ]
+
+[ 2017-07-09T22:27:53+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0180s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:27:55+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0006s ]
+
+[ 2017-07-09T22:28:15+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0065s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:28:53+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002939s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:29:01+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002352s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0073s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0029s ]
+
+[ 2017-07-09T22:29:58+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:31:26+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: data F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 89 行.
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-07-09T22:32:04+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0061s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 34 [ RunTime:0.0813s ]
+
+[ 2017-07-09T22:32:06+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0448s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 34 [ RunTime:0.0992s ]
+
+[ 2017-07-09T22:32:09+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0059s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 34 [ RunTime:0.0533s ]
+
+[ 2017-07-09T22:32:13+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0062s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 34 [ RunTime:0.1154s ]
+
+[ 2017-07-09T22:32:21+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003044s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0511s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 34 [ RunTime:0.0679s ]
+
+[ 2017-07-09T22:32:44+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002848s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0081s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 34 [ RunTime:0.0955s ]
+
+[ 2017-07-09T22:32:51+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0064s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 34 [ RunTime:0.0690s ]
+
+[ 2017-07-09T22:33:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002899s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 17 [ RunTime:0.0950s ]
+
+[ 2017-07-09T22:33:17+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 34 [ RunTime:0.0989s ]
+
+[ 2017-07-09T22:33:18+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0079s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 34 [ RunTime:0.0628s ]
+
+[ 2017-07-09T22:33:24+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0077s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 17 [ RunTime:0.0846s ]
+
+[ 2017-07-09T22:33:29+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0908s ]
+
+[ 2017-07-09T22:33:39+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 34 [ RunTime:0.0819s ]
+
+[ 2017-07-09T22:34:10+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0065s ]
+SQL: UPDATE `content` SET `status`='0' WHERE `id` = 1 [ RunTime:0.2546s ]
+
+[ 2017-07-09T22:34:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 34 [ RunTime:0.0855s ]
+
+[ 2017-07-09T22:34:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 34 [ RunTime:0.0733s ]
+
+[ 2017-07-09T22:34:34+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0062s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 34 [ RunTime:0.1199s ]
+
+[ 2017-07-09T22:34:39+08:00 ] 127.0.0.1 /index.php/Admin/Content/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.1341s ]
+SQL: UPDATE `content` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0774s ]
+
+[ 2017-07-09T22:59:40+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002227s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0425s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0070s ]
+SQL: INSERT INTO `content` (`cate_id`,`content`,`status`) VALUES ('34','<p>这是PHP技术贴<br/></p>','1') [ RunTime:0.1317s ]
+
+[ 2017-07-09T23:00:44+08:00 ] 127.0.0.1 /index.php/Admin/Content/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0068s ]
+SQL: DELETE FROM `content` WHERE `id` = 3 [ RunTime:0.0899s ]
+
+[ 2017-07-09T23:01:04+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+
+[ 2017-07-09T23:01:10+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002719s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+
+[ 2017-07-09T23:02:31+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0068s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`) VALUES ('PHP','34','<p>PHP计划<br/></p>','1') [ RunTime:0.1016s ]
+
+[ 2017-07-09T23:06:11+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0072s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`) VALUES ('嘿嘿','17','<p>嘎嘎嘎<br/></p>','1') [ RunTime:0.0721s ]
+
+[ 2017-07-09T23:07:41+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0093s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`) VALUES ('哦哦哦','17','<p>得到的<br/></p>','1') [ RunTime:0.1266s ]
+
+[ 2017-07-09T23:12:49+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0069s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`) VALUES ('哦哦哦','17','&lt;p&gt;得到的&lt;br/&gt;&lt;/p&gt;','1') [ RunTime:0.1465s ]
+
+[ 2017-07-09T23:13:01+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0125s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`) VALUES ('哦哦哦','34','&lt;p&gt;得到的方法&lt;br/&gt;&lt;/p&gt;','1') [ RunTime:0.1216s ]
+
+[ 2017-07-09T23:13:44+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002592s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0534s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0078s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`) VALUES ('哦哦哦','34','&lt;p&gt;得到的方法&lt;br/&gt;&lt;/p&gt;','1') [ RunTime:0.1601s ]
+
+[ 2017-07-09T23:15:23+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0071s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`) VALUES ('哦哦哦','34','&lt;p&gt;得到的方法&lt;br/&gt;&lt;/p&gt;','1') [ RunTime:0.1480s ]
+
+[ 2017-07-09T23:17:01+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005681s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0085s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`) VALUES ('哦哦哦','34','&lt;p&gt;得到的方法&lt;br/&gt;&lt;/p&gt;','1') [ RunTime:0.1232s ]
+
+[ 2017-07-09T23:17:59+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002901s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0065s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`) VALUES ('哦哦哦','34','&lt;p&gt;得到的方法&lt;br/&gt;&lt;/p&gt;','1') [ RunTime:0.1260s ]
+
+[ 2017-07-09T23:20:47+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002863s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0473s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0098s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('哦哦哦','34','&lt;p&gt;得到的方法&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.0969s ]
+
+[ 2017-07-09T23:21:53+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002379s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0073s ]
+SQL: INSERT INTO `content` (`artname`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('哦哦哦','34','&lt;p&gt;得到的方法&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.0990s ]
+

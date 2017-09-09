@@ -1,0 +1,597 @@
+[ 2017-07-25T22:08:34+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0070s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-07-25T22:08:34+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/Public/Home/image/404.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+
+[ 2017-07-25T22:10:37+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0083s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0008s ]
+ERR: 模板不存在:./Application/Home/View/Indeddx/index.html
+
+[ 2017-07-25T22:11:01+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0089s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2017-07-25T22:18:19+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+
+[ 2017-07-25T22:18:44+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0080s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2017-07-25T22:18:44+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/__PUBLIC__/Home/image/404.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+
+[ 2017-07-25T22:19:24+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0073s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2017-07-25T22:19:24+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/%7B__PUBLIC__%7D/Home/image/404.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+
+[ 2017-07-25T22:20:08+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0075s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2017-07-25T22:20:08+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/Public/Home/image/404.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002336s ]
+
+[ 2017-07-25T22:20:09+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002580s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0068s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2017-07-25T22:20:09+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/Public/Home/image/404.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+
+[ 2017-07-25T22:31:01+08:00 ] 127.0.0.1 /index.php/Home/Indeddx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.114615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013135s ]
+ERR: 无法加载控制器:Indeddx
+
+[ 2017-07-25T22:31:13+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0277s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0285s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0380s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '首页大图' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '右侧小图' LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `content` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `content` WHERE `status` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.037583s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.037836s ]
+NOTIC: [8] Undefined index: check F:\MyPHP\news\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 32 行.
+NOTIC: [8] Undefined index: check F:\MyPHP\news\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 32 行.
+NOTIC: [8] Undefined index: check F:\MyPHP\news\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 32 行.
+NOTIC: [8] Undefined index: check F:\MyPHP\news\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.248600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010681s ]
+
+[ 2017-07-25T22:31:20+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+ERR: 无法加载控制器:Index1
+
+[ 2017-07-25T22:36:50+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0049s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2017-07-25T22:36:50+08:00 ] 127.0.0.1 /index.php/Home/Index1/__PUBLIC__/Home/image/404.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+
+[ 2017-07-25T22:37:16+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0055s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2017-07-25T22:37:16+08:00 ] 127.0.0.1 /index.php/Home/Index1/Public/Home/image/404.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+
+[ 2017-07-25T22:37:17+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0053s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2017-07-25T22:37:17+08:00 ] 127.0.0.1 /index.php/Home/Index1/Public/Home/image/404.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+
+[ 2017-07-25T22:37:18+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0051s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2017-07-25T22:37:18+08:00 ] 127.0.0.1 /index.php/Home/Index1/Public/Home/image/404.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+
+[ 2017-07-25T22:38:40+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0057s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-07-25T22:38:55+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0051s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2017-07-25T22:38:57+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0051s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2017-07-25T22:39:20+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.1305s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0049s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002078s ]
+
+[ 2017-07-25T22:40:05+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0061s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-07-25T22:40:05+08:00 ] 127.0.0.1 /index.php/Home/Index1/__PUBLIC__/Home/image/404.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-07-25T22:40:17+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0054s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2017-07-25T22:40:17+08:00 ] 127.0.0.1 /index.php/Home/Index1/__PUBLIC__/Home/image/404.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001638s ]
+
+[ 2017-07-25T22:40:31+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0068s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2017-07-25T22:40:58+08:00 ] 127.0.0.1 /index.php/Home/Index1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0054s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2017-07-25T22:48:57+08:00 ] 127.0.0.1 /index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+
+[ 2017-07-25T22:48:57+08:00 ] 127.0.0.1 /index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+
+[ 2017-07-25T22:49:11+08:00 ] 127.0.0.1 /index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-07-25T22:49:11+08:00 ] 127.0.0.1 /index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+
+[ 2017-07-25T22:51:23+08:00 ] 127.0.0.1 /index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0053s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2017-07-25T22:51:33+08:00 ] 127.0.0.1 /index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0048s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-07-25T22:51:39+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0578s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0056s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '首页大图' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '右侧小图' LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `content` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `content` WHERE `status` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index: check F:\MyPHP\news\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 32 行.
+NOTIC: [8] Undefined index: check F:\MyPHP\news\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 32 行.
+NOTIC: [8] Undefined index: check F:\MyPHP\news\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 32 行.
+NOTIC: [8] Undefined index: check F:\MyPHP\news\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-07-25T22:51:43+08:00 ] 127.0.0.1 /index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0052s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2017-07-25T23:06:15+08:00 ] 127.0.0.1 /index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.3789s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `located` [ RunTime:0.0062s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5   [ RunTime:0.4217s ]
+SQL: SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.status AS status,Content.count AS count,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Content.status = '1' AND Located.name = '文章排行' ORDER BY Content.id desc LIMIT 3   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+

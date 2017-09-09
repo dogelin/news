@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<include file="Public/menu" />
+<body>
+<include file="Public/header" />
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-9">
+        <div class="banner">
+        <volist name="big" id="vo">
+          <div class="banner-left">
+            <div class="banner-info"><span>阅读数</span><i class="news_count" >{$vo.count}</i></div>
+            <a target="_blank" href="__MODULE__/Content/lst/id/{$vo.id}">
+            	<img src="{$vo.pic}" alt="" width="670" height="360">
+            </a>
+          </div>
+          </volist>
+          <div class="banner-right">
+            <ul>
+            <volist name="small" id="vo">
+              <li>
+                <a target="_blank" href="__MODULE__/Content/lst/id/{$vo.id}">
+                	<img src="{$vo.pic}" alt="{$vo.artname}" width="150" height="113">
+                </a>
+              </li>
+             </volist>
+            </ul>
+          </div>
+        </div>
+    <div class="right-title" style="text-align:left;">
+    <h3>最新文章</h3>
+    <span>NEW ARTICLES</span>
+  </div>
+        <div class="news-list">
+        <volist name="conts" id="vo">
+          <dl>
+            <dt><a target="_blank" href="__MODULE__/Content/lst/id/{$vo.id}">{$vo.artname}</a></dt>
+            <dd class="news-img">
+              <a target="_blank" href="__MODULE__/Content/lst/id/{$vo.id}">
+              	<img src="{$vo.pic}" alt="{$vo.artname}" width="200" height="120">
+              </a> 
+            </dd>
+            <dd class="news-intro">
+            	 {$vo.desc}
+            </dd>
+            <dd class="news-info">
+              <span>{$vo.updatetime|strtime}</span>
+               阅读(&nbsp;<i class="news_count">{$vo.count}</i>&nbsp;)
+            </dd>
+          </dl>
+          </volist>
+          <div class="list-page">{$page}</div>
+        </div>       
+      </div>
+      <!--网站右侧信息-->
+      <include file="Public/right" />
+    </div>
+  </div>
+</section>
+
+<script src="__PUBLIC__/Home/js/jquery.js"></script>
+<script src="__PUBLIC__/Home/js/imageunt.js"></script>
+</body></html>

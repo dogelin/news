@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<include file="Public/menu" />
+<body>
+<include file="Public/header" />
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-9 col-md-9">
+				<div class="news-detail" style="padding:40px 50px 0px 10px;">
+					<h1>{$conts.artname}</h1>
+					<p><br></p>
+					<p>
+						<span>{$conts.updatetime|strtime}</span>&nbsp;&nbsp;&nbsp;
+						<span>阅读数：{$conts.count}</span>&nbsp;&nbsp;&nbsp;
+						<span>所属栏目：{$conts.cate_id|catename}</span>
+					</p>
+					<p style="font-size: 18px;color: #5a5353;"><i>{$conts.desc}</i></p>
+					<p><img src="{$conts.pic}" alt=""  width="474" height="301" align=""> </p>
+					<p style="font-size: 22px;">
+						<?php echo htmlspecialchars_decode($conts['content']); ?>
+					</p>
+				</div>
+			</div>
+			<include file="Public/right" />
+		</div>
+	</div>
+</section>
+<script src="__PUBLIC__/Home/js/jquery.js"></script>
+<script src="__PUBLIC__/Home/js/imageunt.js"></script>
+</body>
+</html>

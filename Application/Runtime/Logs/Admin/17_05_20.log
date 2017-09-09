@@ -1,0 +1,1435 @@
+[ 2017-05-20T20:12:23+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+
+[ 2017-05-20T20:12:23+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013661s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013906s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2017-05-20T20:12:32+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1226s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0977s ]
+
+[ 2017-05-20T20:12:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.487750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.488093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-05-20T20:12:39+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2017-05-20T20:12:44+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 16 [ RunTime:0.2858s ]
+
+[ 2017-05-20T20:12:46+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 23 [ RunTime:0.1110s ]
+
+[ 2017-05-20T20:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Content/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.1733s ]
+SQL: SELECT * FROM `content`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: menus F:\MyPHP\news\Application\Runtime\Cache\Admin\9c994333a051f47116a5c05c0c1389c6.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2017-05-20T20:12:50+08:00 ] 127.0.0.1 /index.php/Admin/Content/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+ERR: 非法操作:design
+
+[ 2017-05-20T20:12:53+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2017-05-20T20:12:56+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 16 [ RunTime:0.2321s ]
+
+[ 2017-05-20T20:12:57+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.1275s ]
+
+[ 2017-05-20T20:12:59+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 23 [ RunTime:0.1458s ]
+
+[ 2017-05-20T20:13:00+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2017-05-20T20:13:05+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2017-05-20T20:13:12+08:00 ] 127.0.0.1 /index.php/Admin/Menu/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: DELETE FROM `menu` WHERE `id` = 16 [ RunTime:0.1097s ]
+
+[ 2017-05-20T20:13:13+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2017-05-20T20:16:01+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002644s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001876s ]
+
+[ 2017-05-20T20:19:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2017-05-20T20:19:12+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2017-05-20T20:19:28+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0643s ]
+
+[ 2017-05-20T20:20:39+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2017-05-20T20:20:46+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0745s ]
+
+[ 2017-05-20T20:21:32+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2017-05-20T20:21:40+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 23 [ RunTime:0.0992s ]
+
+[ 2017-05-20T20:22:38+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2017-05-20T20:22:40+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-05-20T20:22:47+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0834s ]
+
+[ 2017-05-20T20:22:57+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0882s ]
+
+[ 2017-05-20T20:23:04+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2017-05-20T20:23:06+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0872s ]
+
+[ 2017-05-20T20:23:23+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2017-05-20T20:23:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0895s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0885s ]
+
+[ 2017-05-20T20:23:38+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2017-05-20T20:23:40+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0913s ]
+
+[ 2017-05-20T20:23:41+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2017-05-20T20:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0630s ]
+
+[ 2017-05-20T20:23:44+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2017-05-20T20:23:46+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2017-05-20T20:23:58+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2017-05-20T20:23:59+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.1769s ]
+
+[ 2017-05-20T20:24:00+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.1493s ]
+
+[ 2017-05-20T20:24:00+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0669s ]
+
+[ 2017-05-20T20:24:01+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0579s ]
+
+[ 2017-05-20T20:24:07+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.4350s ]
+
+[ 2017-05-20T20:27:43+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0788s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2017-05-20T20:27:49+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE ( id=17 ) [ RunTime:0.0832s ]
+
+[ 2017-05-20T20:28:11+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE ( id=23 ) [ RunTime:0.0845s ]
+
+[ 2017-05-20T20:28:26+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+NOTIC: [8] Undefined index: orderlist F:\MyPHP\news\Application\Runtime\Cache\Admin\9237bf922ad0bea2998732ff5c0f1b55.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2017-05-20T20:28:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE ( id=17 ) [ RunTime:0.0884s ]
+
+[ 2017-05-20T20:29:59+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE ( id=23 ) [ RunTime:0.0640s ]
+
+[ 2017-05-20T20:30:10+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE ( id=23 ) [ RunTime:0.0856s ]
+
+[ 2017-05-20T20:30:38+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE ( id=23 ) [ RunTime:0.0880s ]
+
+[ 2017-05-20T20:30:40+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE ( id=17 ) [ RunTime:0.0703s ]
+
+[ 2017-05-20T20:32:24+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0835s ]
+
+[ 2017-05-20T20:33:46+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0819s ]
+
+[ 2017-05-20T20:33:48+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.1020s ]
+
+[ 2017-05-20T20:33:58+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002705s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0754s ]
+
+[ 2017-05-20T20:34:49+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0857s ]
+
+[ 2017-05-20T20:34:51+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0760s ]
+
+[ 2017-05-20T20:35:25+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `name`='生活1' WHERE `id` = 17 [ RunTime:0.0995s ]
+
+[ 2017-05-20T20:35:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `name`='生活' WHERE `id` = 17 [ RunTime:0.0920s ]
+
+[ 2017-05-20T20:35:35+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.1163s ]
+
+[ 2017-05-20T20:38:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE ( id=17 ) [ RunTime:0.0627s ]
+
+[ 2017-05-20T20:38:09+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE ( id=17 ) [ RunTime:0.1670s ]
+
+[ 2017-05-20T20:38:09+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE ( id=17 ) [ RunTime:0.0766s ]
+
+[ 2017-05-20T20:38:11+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE ( id=17 ) [ RunTime:0.0606s ]
+
+[ 2017-05-20T20:39:01+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0636s ]
+
+[ 2017-05-20T20:39:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0816s ]
+
+[ 2017-05-20T20:39:07+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.1209s ]
+
+[ 2017-05-20T20:39:18+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0858s ]
+
+[ 2017-05-20T20:39:23+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0792s ]
+
+[ 2017-05-20T20:40:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-20T20:40:12+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-20T20:40:14+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-20T20:40:14+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-20T20:40:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-20T20:40:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-20T20:40:48+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0819s ]
+
+[ 2017-05-20T20:40:50+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0882s ]
+
+[ 2017-05-20T20:41:24+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.1362s ]
+
+[ 2017-05-20T20:43:33+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0061s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0881s ]
+
+[ 2017-05-20T20:43:34+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0061s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0927s ]
+
+[ 2017-05-20T20:43:43+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0887s ]
+
+[ 2017-05-20T20:43:44+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0850s ]
+
+[ 2017-05-20T20:44:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0682s ]
+
+[ 2017-05-20T20:44:09+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0732s ]
+
+[ 2017-05-20T20:44:09+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0930s ]
+
+[ 2017-05-20T20:44:13+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0957s ]
+
+[ 2017-05-20T20:44:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0577s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0648s ]
+
+[ 2017-05-20T20:45:46+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0953s ]
+
+[ 2017-05-20T20:46:01+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0922s ]
+
+[ 2017-05-20T20:46:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0804s ]
+
+[ 2017-05-20T20:46:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0552s ]
+
+[ 2017-05-20T20:46:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0826s ]
+
+[ 2017-05-20T20:46:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0584s ]
+
+[ 2017-05-20T20:46:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0890s ]
+
+[ 2017-05-20T20:46:29+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0950s ]
+
+[ 2017-05-20T20:46:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0596s ]
+
+[ 2017-05-20T20:46:45+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0911s ]
+
+[ 2017-05-20T20:46:46+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0274s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0849s ]
+
+[ 2017-05-20T20:46:47+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.1912s ]
+
+[ 2017-05-20T20:46:48+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0559s ]
+
+[ 2017-05-20T20:46:48+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0846s ]
+
+[ 2017-05-20T20:46:49+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0886s ]
+
+[ 2017-05-20T20:47:04+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0870s ]
+
+[ 2017-05-20T20:47:14+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0879s ]
+
+[ 2017-05-20T20:48:01+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.2433s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0735s ]
+
+[ 2017-05-20T20:48:14+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0868s ]
+
+[ 2017-05-20T20:48:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0830s ]
+
+[ 2017-05-20T20:48:49+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0882s ]
+
+[ 2017-05-20T20:48:52+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.1207s ]
+
+[ 2017-05-20T20:49:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0796s ]
+
+[ 2017-05-20T20:49:40+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0052s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.2306s ]
+
+[ 2017-05-20T20:49:51+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0866s ]
+
+[ 2017-05-20T20:51:54+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0058s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.1675s ]
+
+[ 2017-05-20T20:52:10+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0932s ]
+
+[ 2017-05-20T20:52:10+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0892s ]
+
+[ 2017-05-20T20:52:35+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0488s ]
+
+[ 2017-05-20T20:52:58+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0881s ]
+
+[ 2017-05-20T20:53:26+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.3311s ]
+
+[ 2017-05-20T20:54:13+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 17 [ RunTime:0.0954s ]
+
+[ 2017-05-20T20:54:17+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 17 [ RunTime:0.1117s ]
+
+[ 2017-05-20T20:54:53+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0855s ]
+
+[ 2017-05-20T20:54:57+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 23 [ RunTime:0.0928s ]
+
+[ 2017-05-20T20:55:16+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001985s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 23 [ RunTime:0.1293s ]
+
+[ 2017-05-20T20:55:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 17 [ RunTime:0.0827s ]
+
+[ 2017-05-20T20:55:26+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0117s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.1188s ]
+
+[ 2017-05-20T20:55:37+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001783s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: UPDATE `menu` SET `status`='0' WHERE `id` = 17 [ RunTime:0.0680s ]
+
+[ 2017-05-20T21:30:55+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0066s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-20T21:31:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0089s ]
+SQL: UPDATE `menu` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0957s ]
+

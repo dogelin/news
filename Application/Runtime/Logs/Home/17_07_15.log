@@ -1,0 +1,14 @@
+[ 2017-07-15T14:45:22+08:00 ] 127.0.0.1 /index.php/Home/Menu/lst/id/17
+ERR: 无法加载控制器:Menu
+
+[ 2017-07-15T15:22:31+08:00 ] 127.0.0.1 /index.php/Home/Content/lst/id/23
+ERR: 无法加载控制器:Content
+
+[ 2017-07-15T15:41:24+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 1064:Erreur de syntaxe près de 'desc,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content O' à la ligne 1
+ [ SQL语句 ] : SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.desc AS desc,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5  
+
+[ 2017-07-15T15:42:41+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 1064:Erreur de syntaxe près de 'desc,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content O' à la ligne 1
+ [ SQL语句 ] : SELECT Content.id AS id,Content.artname AS artname,Content.pic AS pic,Content.desc AS desc,Located.name AS pushname FROM locapush Locapush LEFT JOIN content Content ON Locapush.con_id=Content.id RIGHT JOIN located Located ON Locapush.loca_id=Located.id WHERE Located.name = '文章推荐' ORDER BY Content.id desc LIMIT 5  
+

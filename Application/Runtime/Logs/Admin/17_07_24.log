@@ -1,0 +1,157 @@
+[ 2017-07-24T09:35:45+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1294s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0649s ]
+
+[ 2017-07-24T11:10:19+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0084s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-07-24T11:12:32+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0075s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-24T11:40:03+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 19 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('3','1500867603','19') [ RunTime:0.2179s ]
+
+[ 2017-07-24T11:40:27+08:00 ] 127.0.0.1 /index.php/Admin/Content/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0096s ]
+SQL: DELETE FROM `content` WHERE `id` = 19 [ RunTime:0.2137s ]
+SQL: DELETE FROM `locapush` WHERE `con_id` = 19 [ RunTime:0.0989s ]
+
+[ 2017-07-24T11:40:52+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0193s ]
+SQL: DELETE FROM `locapush` WHERE `id` IN ('51','50','49') [ RunTime:0.1575s ]
+
+[ 2017-07-24T11:40:59+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0507s ]
+SQL: DELETE FROM `locapush` WHERE `id` IN ('48','47','46') [ RunTime:0.5923s ]
+
+[ 2017-07-24T11:41:05+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0090s ]
+SQL: DELETE FROM `locapush` WHERE `id` IN ('45','44','42') [ RunTime:0.1128s ]
+
+[ 2017-07-24T11:41:09+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0094s ]
+SQL: DELETE FROM `locapush` WHERE `id` IN ('37','36') [ RunTime:0.1074s ]
+
+[ 2017-07-24T11:41:18+08:00 ] 127.0.0.1 /index.php/Admin/Locamain/dels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0081s ]
+SQL: DELETE FROM `locapush` WHERE `id` IN ('30','29') [ RunTime:0.0856s ]
+
+[ 2017-07-24T11:41:59+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 37 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('3','1500867719','37') [ RunTime:0.1003s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 36 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('3','1500867719','36') [ RunTime:0.0556s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 35 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('3','1500867719','35') [ RunTime:0.0646s ]
+
+[ 2017-07-24T11:42:06+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002359s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 34 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('3','1500867726','34') [ RunTime:0.1069s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 33 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('3','1500867726','33') [ RunTime:0.0442s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 3 AND `con_id` = 32 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('3','1500867726','32') [ RunTime:0.0315s ]
+
+[ 2017-07-24T11:42:20+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002655s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('4','1500867740','31') [ RunTime:0.1102s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('4','1500867740','30') [ RunTime:0.0931s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 29 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('4','1500867740','29') [ RunTime:0.0301s ]
+
+[ 2017-07-24T11:42:28+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 28 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('4','1500867748','28') [ RunTime:0.1052s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('4','1500867748','27') [ RunTime:0.0444s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 4 AND `con_id` = 26 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('4','1500867748','26') [ RunTime:0.0305s ]
+
+[ 2017-07-24T11:42:35+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0085s ]
+
+[ 2017-07-24T11:42:38+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002169s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 5 AND `con_id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('5','1500867758','25') [ RunTime:0.0801s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 5 AND `con_id` = 24 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('5','1500867758','24') [ RunTime:0.0303s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 5 AND `con_id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('5','1500867758','23') [ RunTime:0.0326s ]
+
+[ 2017-07-24T11:42:47+08:00 ] 127.0.0.1 /index.php/Admin/Content/push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `locapush` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 6 AND `con_id` = 22 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('6','1500867766','22') [ RunTime:0.1090s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 6 AND `con_id` = 21 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('6','1500867766','21') [ RunTime:0.0426s ]
+SQL: SELECT * FROM `locapush` WHERE `loca_id` = 6 AND `con_id` = 20 LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `locapush` (`loca_id`,`time`,`con_id`) VALUES ('6','1500867766','20') [ RunTime:0.0301s ]
+

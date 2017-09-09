@@ -1,0 +1,270 @@
+[ 2017-07-22T21:53:52+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0629s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-22T22:01:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0091s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-07-22T22:18:42+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003720s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0085s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('ffff','fffff','17','&lt;p&gt;fffff&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.1438s ]
+
+[ 2017-07-22T22:19:35+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0074s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('fff','fff','17','&lt;p&gt;ff&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.0996s ]
+
+[ 2017-07-22T22:24:05+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0076s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('jj','jjj','17','&lt;p&gt;jjj&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.1072s ]
+
+[ 2017-07-22T23:11:44+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0076s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('jj','jjj','17','&lt;p&gt;jjj&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.1252s ]
+
+[ 2017-07-22T23:13:00+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0094s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('jj','jjj','17','&lt;p&gt;jjj&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.1028s ]
+
+[ 2017-07-22T23:13:51+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0090s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('kkk','kkkkk','17','&lt;p&gt;kkkk&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.1329s ]
+
+[ 2017-07-22T23:14:11+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0074s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('kkk','kkkkk','17','&lt;p&gt;kkkk&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.0884s ]
+
+[ 2017-07-22T23:16:45+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0547s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0083s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('kkk','kkkkk','17','&lt;p&gt;kkkk&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.0790s ]
+
+[ 2017-07-22T23:17:44+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0582s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0088s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('kkk','kkkkk','17','&lt;p&gt;kkkk&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.1375s ]
+
+[ 2017-07-22T23:18:49+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.1104s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0071s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('ggg','ggg','34','&lt;p&gt;gggg&lt;/p&gt;','1','17','17') [ RunTime:0.1072s ]
+
+[ 2017-07-22T23:20:22+08:00 ] 127.0.0.1 /index.php/Admin/Login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0077s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' F:\MyPHP\news\Application\Admin\Controller\LoginController.class.php 第 15 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-07-22T23:20:44+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0071s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('ddd','dddd','17','&lt;p&gt;dd&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.0996s ]
+
+[ 2017-07-22T23:21:38+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pic F:\MyPHP\news\Application\Admin\Controller\ContentController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0086s ]
+SQL: INSERT INTO `content` (`artname`,`desc`,`cate_id`,`content`,`status`,`creattime`,`updatetime`) VALUES ('ddd','dddd','17','&lt;p&gt;dd&lt;br/&gt;&lt;/p&gt;','1','17','17') [ RunTime:0.1309s ]
+
+[ 2017-07-22T23:22:47+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+
+[ 2017-07-22T23:24:28+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+
+[ 2017-07-22T23:25:37+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+
+[ 2017-07-22T23:25:54+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+
+[ 2017-07-22T23:26:17+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+
+[ 2017-07-22T23:27:14+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+
+[ 2017-07-22T23:28:24+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0006s ]
+
+[ 2017-07-22T23:29:04+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0531s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: tmp_name F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2017-07-22T23:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: tmp_name F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2017-07-22T23:30:43+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: tmp_name F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2017-07-22T23:33:41+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+
+[ 2017-07-22T23:37:58+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: tmp_name F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2017-07-22T23:41:55+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+
+[ 2017-07-22T23:42:27+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [2] finfo_file(F:\wamp\tmp\phpC546.tmp): failed to open stream: No such file or directory F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+
+[ 2017-07-22T23:45:55+08:00 ] 127.0.0.1 /index.php/Admin/Content/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002567s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `menu` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [2] finfo_file(F:\wamp\tmp\phpC546.tmp): failed to open stream: No such file or directory F:\MyPHP\news\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+

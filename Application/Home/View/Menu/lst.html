@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<include file="Public/menu" />
+<body>
+	<include file="Public/header" />
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-md-9">
+					<volist name="conts" id="v">
+					<div class="news-list">
+						<dl>
+							<dt><a href = "__MODULE__/Content/lst/id/{$v.id}">{$v.artname}</a></dt>
+							<dd class="news-img">
+								<a href="__MODULE__/Content/lst/id/{$v.id}">
+									<img src="{$v.pic}" alt="{$v.artname}" width="200" height="120">
+								</a>
+							</dd>
+							<dd class="news-intro">{$v.desc}</dd>
+							<dd class="news-info">
+								<span>{$v.updatetime|strtime}</span>
+								 阅读({$v.count})
+							</dd>
+						</dl>
+					</div>
+					
+					</volist>
+					<div class="list-page">{$page}</div>
+				</div>
+				<include file="Public/right" />
+			</div>
+		</div>
+	</section>
+
+<script src="__PUBLIC__/Home/js/jquery.js"></script>
+<script src="__PUBLIC__/Home/js/imageunt.js"></script>
+</body></html>

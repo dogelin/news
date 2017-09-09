@@ -1,0 +1,28 @@
+<div class="col-sm-3 col-md-3">
+	<div style="height:360px;">
+		<div class="right-title">
+	  		<h3>文章推荐</h3>
+	    	<span>TOP ARTICLES</span>
+	  	</div>
+	  	<div class="right-content">
+	    	<ul>
+	    		<volist name="tui" id="vo">
+	      			<li class="num1 curr">
+	        			<a target="_blank" href="__MODULE__/Content/lst/id/{$vo.id}">{$vo.artname}</a>
+	      			</li>
+	    		</volist>
+	   		</ul>
+	  	</div>
+	</div>
+  	<div class="right-title">
+    	<h3>文章排行</h3>
+    	<span>TOP ARTICLES</span>
+  	</div>
+  	<volist name="top" id="vo">
+  		<div class="right-hot">
+    		<a target="_blank" href="__MODULE__/Content/lst/id/{$vo.id}">
+    			<img src="{$vo.pic}" alt="{$vo.artname}" width="262px" height="149px">
+    		</a>
+  		</div>
+  	</volist>
+</div>
